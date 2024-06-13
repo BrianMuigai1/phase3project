@@ -286,7 +286,7 @@ class LibraryCLI(cmd.Cmd):
 
     def do_exit(self, arg):
         'Exit the library management system: exit'
-        print('Exiting the library management system.')
+        print(('Exiting the library management system.'))
         return True
 
 if __name__ == '__main__':
